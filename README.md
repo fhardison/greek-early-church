@@ -1,16 +1,18 @@
-# {{ NAME OF TEXT }}
+# Lemmatization of To the Newly Baptized by Clement of Alexandria
 
-{{ describe what is being done, the process being followed, and who is involved in the work }}
+
+
+In this repo you will find a lemmatisation of _To the Newly Baptized_ by Clement of Alexandria.
 
 This text is being prepared as part of the [Greek Learner Texts Project](https://greek-learner-texts.org/).
 
 ## Contributors
 
-* {{ list of people who have contributed to this repo }}
+* Fletcher Hardison
 
 ## Source
 
-{{ indicate original source(s) of text: scans or existing transcriptions }}
+The Greek the lemmitisation was done from is found at [www.earlychristianwritings.com](http://www.earlychristianwritings.com/text/clement-baptized-uni.html) which got the text from "Butterworth's Clement of Alexandria, pp. 370-377 in the Loeb Classical Library, first printed 1919." 
 
 ## Progress
 
