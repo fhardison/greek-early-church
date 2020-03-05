@@ -1,0 +1,2 @@
+* the prepared text in our textpart-per-line format with dotted ref
+* can be multiple *.txt files but, if there is an inherent order to the files, this should be reflected in the sort order of the filenames
