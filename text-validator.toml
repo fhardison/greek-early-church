@@ -24,5 +24,6 @@ REPLACE_CHARS = [
 TOKEN_REGEXES = [
     # each whitespace-separated token must match one of these regexes
     "\\d+\\.\\d+$",
-    "[«(]*[\u0370-\u03FF\u1F00-\u1FFF]+\u2019?[.,:;»)·]*$",
+    "[«(]*[\u0370-\u03FF\u1F00-\u1FFF]+\u2019?[.,:;»)·']*$",
+	"#",
 ]
