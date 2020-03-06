@@ -1,4 +1,4 @@
-# Greek Early Church Homilies
+# Greek Early Church
 
 Lemmatization of To the Newly Baptized by Clement of Alexandria
 
