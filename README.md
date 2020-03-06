@@ -1,8 +1,8 @@
 # Lemmatization of To the Newly Baptized by Clement of Alexandria
 
-I'd like to thank [Peter Kerby](http://www.earlychristianwritings.com/) for kindly allowing me to us his digitization of the text taken from Butterworth's Clement of Alexandria.
+I'd like to thank [Peter Kerby](http://www.earlychristianwritings.com/) for kindly allowing me to us his digitization of the text taken from Butterworth's _Clement of Alexandria_.
 
-In the text and a l find a lemmatisation of _To the Newly Baptized_ by Clement of Alexandria.
+In this repo you will find the text in the format used by the Greek Learner Texts Project and a lemmatisation of _To the Newly Baptized_ by Clement of Alexandria.
 
 This text is being prepared as part of the [Greek Learner Texts Project](https://greek-learner-texts.org/).
 
@@ -12,7 +12,7 @@ This text is being prepared as part of the [Greek Learner Texts Project](https:/
 
 ## Source
 
-The Greek text is form Peter Kerby's site, [www.earlychristianwritings.com](http://www.earlychristianwritings.com/text/clement-baptized-uni.html). He cites his source as "Butterworth's Clement of Alexandria, pp. 370-377 in the Loeb Classical Library, first printed 1919".
+The [Greek text](http://www.earlychristianwritings.com/text/clement-baptized-uni.html) is form Peter Kerby's site, [www.earlychristianwritings.com](http://www.earlychristianwritings.com). He cites his source as "Butterworth's Clement of Alexandria, pp. 370-377 in the Loeb Classical Library, first printed 1919".
 
 ## License
 
