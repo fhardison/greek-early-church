@@ -1,16 +1,9 @@
 # Greek Early Church
 
-Lemmatization of To the Newly Baptized by Clement of Alexandria
-
 In this repo you will find the text and lemmatisation of the following works:
 
 * _To the Newly Baptized_ by Clement of Alexandria.
 * _Paschal Homily_ by John Chrysostom
-
-
-
-
-
 
 These texts are being prepared as part of the [Greek Learner Texts Project](https://greek-learner-texts.org/).
 
