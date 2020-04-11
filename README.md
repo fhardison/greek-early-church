@@ -30,8 +30,7 @@ The following Google Books scans of Migne's volume 59 were consulted.
 
 | Text | Formatted | Lemmatisation | Sentence/Paragraph start/end | Notes |
 |:--|:--|:--|:--|:--|
-| To the Newly Baptized | Y | Y | N | *Note that the title (line `1.0.head` in the text) was not included in the lemmatisation.*
-|
+| To the Newly Baptized | Y | Y | N | *Note that the title (line `1.0.head` in the text) was not included in the lemmatisation.*|
 | Paschal Homily | Y | N | N | |
 
 
