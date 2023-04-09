@@ -1,1 +1,3 @@
 Token-level analysis like lemmatisation or postagging can go here.
+
+- "lemma_overrides.txt" is a mapping of normalized form to lemma that I either considered wrong or was not found in the lemmatizer tool and so needed to be overridded or added.

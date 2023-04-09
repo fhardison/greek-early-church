@@ -1,0 +1,1372 @@
+<html><head>
+<script src="https://unpkg.com/hyperscript.org@0.9.8"></script>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {font-size:18pt; }
+.hidden {display: none; visibility:hidden; }
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alpheios-components@latest/dist/style/style-components.min.css"/>
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function(event) {
+    import ("https://cdn.jsdelivr.net/npm/alpheios-embedded@latest/dist/alpheios-embedded.min.js").then(embedLib => {
+      window.AlpheiosEmbed.importDependencies({
+        mode: 'cdn'
+      }).then(Embedded => {
+        new Embedded({
+          clientId: 'radom-thing',
+	  disabledSelector: ".parse"	
+        }).activate();
+      }).catch(e => {
+        console.error(`Import of Alpheios embedded library dependencies failed: `)
+      })
+    }).catch(e => {
+      console.error(`Import of Alpheios Embedded library failed: `)
+    })
+  });
+</script>
+
+	</head>
+
+	<body>
+		<div id="controls">
+			<input type="checkbox" id="lemma1" name="lemma1" value="Bike" _="on click toggle .hidden on <li.lemma/>">
+			<label for="lemma1">Lemma</label><br>
+			<input type="checkbox" id="parse1" name="parse1" value="Bike" _="on click toggle .hidden on <li.parse/>">
+			<label for="parse1">Parse</label><br>
+		</div>
+		::: {style="line"}
+    <ul>
+        <li class="text">Κατηχητικὸς<li>
+        <li class="lemma">κατηχητικὸς<li>
+    </ul>
+    <ul>
+        <li class="text">εἰς<li>
+        <li class="lemma">εἰς<li>
+    </ul>
+    <ul>
+        <li class="text">τὸ<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">ἄγιον<li>
+        <li class="lemma">ἄγιος<li>
+    </ul>
+    <ul>
+        <li class="text">πάσχα<li>
+        <li class="lemma">πάσχα<li>
+    </ul>
+:::
+
+::: {style="line"}
+    <ul>
+        <li class="text">Εἴ<li>
+        <li class="lemma">εἰ<li>
+    </ul>
+    <ul>
+        <li class="text">τις<li>
+        <li class="lemma">τις<li>
+    </ul>
+    <ul>
+        <li class="text">εὐσεβὴς<li>
+        <li class="lemma">εὐσεβἠς<li>
+    </ul>
+    <ul>
+        <li class="text">καὶ<li>
+        <li class="lemma">καί<li>
+    </ul>
+    <ul>
+        <li class="text">φιλόθεος<li>
+        <li class="lemma">φιλόθεος<li>
+    </ul>
+    <ul>
+        <li class="text">ἀπολαυέτω<li>
+        <li class="lemma">ἀπολαύω<li>
+    </ul>
+    <ul>
+        <li class="text">τῆς<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">καλῆς<li>
+        <li class="lemma">καλός<li>
+    </ul>
+    <ul>
+        <li class="text">ταύτης<li>
+        <li class="lemma">οὗτος<li>
+    </ul>
+    <ul>
+        <li class="text">πανηγύρεως·<li>
+        <li class="lemma">πανήγυρις<li>
+    </ul>
+:::
+
+::: {style="line"}
+    <ul>
+        <li class="text">εἴ<li>
+        <li class="lemma">εἰ<li>
+    </ul>
+    <ul>
+        <li class="text">τις<li>
+        <li class="lemma">τις<li>
+    </ul>
+    <ul>
+        <li class="text">δοῦλος<li>
+        <li class="lemma">δοῦλος<li>
+    </ul>
+    <ul>
+        <li class="text">εὐγνώμων,<li>
+        <li class="lemma">εὐγνώμων<li>
+    </ul>
+    <ul>
+        <li class="text">εἰσελθέτω<li>
+        <li class="lemma">εἰσέρχομαι<li>
+    </ul>
+    <ul>
+        <li class="text">χαίρων<li>
+        <li class="lemma">χαίρω<li>
+    </ul>
+    <ul>
+        <li class="text">εἰς<li>
+        <li class="lemma">εἰς<li>
+    </ul>
+    <ul>
+        <li class="text">τὴν<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">χαρὰν<li>
+        <li class="lemma">χαρά<li>
+    </ul>
+    <ul>
+        <li class="text">τοῦ<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">Κυρίου<li>
+        <li class="lemma">κύριος<li>
+    </ul>
+    <ul>
+        <li class="text">αὐτοῦ·<li>
+        <li class="lemma">αὐτός<li>
+    </ul>
+:::
+
+::: {style="line"}
+    <ul>
+        <li class="text">εἴ<li>
+        <li class="lemma">εἰ<li>
+    </ul>
+    <ul>
+        <li class="text">τις<li>
+        <li class="lemma">τις<li>
+    </ul>
+    <ul>
+        <li class="text">ἔκαμε<li>
+        <li class="lemma">κάμνω<li>
+    </ul>
+    <ul>
+        <li class="text">νηστεύων,<li>
+        <li class="lemma">νηστεύω<li>
+    </ul>
+    <ul>
+        <li class="text">ἀπολαβέτω<li>
+        <li class="lemma">ἀπολαμβάνω<li>
+    </ul>
+    <ul>
+        <li class="text">νῦν<li>
+        <li class="lemma">νῦν<li>
+    </ul>
+    <ul>
+        <li class="text">τὸ<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">δηνάριον·<li>
+        <li class="lemma">δηνάριον<li>
+    </ul>
+:::
+
+::: {style="line"}
+    <ul>
+        <li class="text">εἴ<li>
+        <li class="lemma">εἰ<li>
+    </ul>
+    <ul>
+        <li class="text">τις<li>
+        <li class="lemma">τις<li>
+    </ul>
+    <ul>
+        <li class="text">ἀπό<li>
+        <li class="lemma">ἀπό<li>
+    </ul>
+    <ul>
+        <li class="text">πρώτης<li>
+        <li class="lemma">πρῶτος<li>
+    </ul>
+    <ul>
+        <li class="text">ὥρας<li>
+        <li class="lemma">ὥρα<li>
+    </ul>
+    <ul>
+        <li class="text">εἰργάσατο,<li>
+        <li class="lemma">ἐργάζομαι<li>
+    </ul>
+    <ul>
+        <li class="text">δεχέσθω<li>
+        <li class="lemma">δέχομαι<li>
+    </ul>
+    <ul>
+        <li class="text">σήμερον<li>
+        <li class="lemma">σήμερον<li>
+    </ul>
+    <ul>
+        <li class="text">τὸ<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">δίκαιον<li>
+        <li class="lemma">δίκαιος<li>
+    </ul>
+    <ul>
+        <li class="text">ὄφλημα·<li>
+        <li class="lemma">ὄφλημα<li>
+    </ul>
+:::
+
+::: {style="line"}
+    <ul>
+        <li class="text">εἴ<li>
+        <li class="lemma">εἰ<li>
+    </ul>
+    <ul>
+        <li class="text">τις<li>
+        <li class="lemma">τις<li>
+    </ul>
+    <ul>
+        <li class="text">μετὰ<li>
+        <li class="lemma">μετά<li>
+    </ul>
+    <ul>
+        <li class="text">τὴν<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">τρίτην<li>
+        <li class="lemma">τρίτος<li>
+    </ul>
+    <ul>
+        <li class="text">ἦλθεν,<li>
+        <li class="lemma">ἔρχομαι<li>
+    </ul>
+    <ul>
+        <li class="text">εὐχαριστῶν<li>
+        <li class="lemma">εὐχαριστέω<li>
+    </ul>
+    <ul>
+        <li class="text">ἑορτάσῃ·<li>
+        <li class="lemma">ἑορτάζω<li>
+    </ul>
+    <ul>
+        <li class="text">εἴ<li>
+        <li class="lemma">εἰ<li>
+    </ul>
+    <ul>
+        <li class="text">τις<li>
+        <li class="lemma">τις<li>
+    </ul>
+    <ul>
+        <li class="text">μετὰ<li>
+        <li class="lemma">μετά<li>
+    </ul>
+    <ul>
+        <li class="text">τὴν<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">ἕκτην<li>
+        <li class="lemma">ἕκτος<li>
+    </ul>
+    <ul>
+        <li class="text">ἔφθασε,<li>
+        <li class="lemma">φθάνω<li>
+    </ul>
+    <ul>
+        <li class="text">μηδὲν<li>
+        <li class="lemma">μηδείς<li>
+    </ul>
+    <ul>
+        <li class="text">ἀμφιβαλλέτω·<li>
+        <li class="lemma">ἀμφιβάλλω<li>
+    </ul>
+    <ul>
+        <li class="text">καὶ<li>
+        <li class="lemma">καί<li>
+    </ul>
+    <ul>
+        <li class="text">γὰρ<li>
+        <li class="lemma">γάρ<li>
+    </ul>
+    <ul>
+        <li class="text">οὐδὲν<li>
+        <li class="lemma">οὐδείς<li>
+    </ul>
+    <ul>
+        <li class="text">ζημιοῦται·<li>
+        <li class="lemma">ζημιόω<li>
+    </ul>
+    <ul>
+        <li class="text">εἴ<li>
+        <li class="lemma">εἰ<li>
+    </ul>
+    <ul>
+        <li class="text">τις<li>
+        <li class="lemma">τις<li>
+    </ul>
+    <ul>
+        <li class="text">ὑστέρησεν<li>
+        <li class="lemma">ὑστερέω<li>
+    </ul>
+    <ul>
+        <li class="text">εἰς<li>
+        <li class="lemma">εἰς<li>
+    </ul>
+    <ul>
+        <li class="text">τὴν<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">ἐννάτην,<li>
+        <li class="lemma">νάω<li>
+    </ul>
+    <ul>
+        <li class="text">προσελθέτω<li>
+        <li class="lemma">προσέρχομαι<li>
+    </ul>
+    <ul>
+        <li class="text">μηδέν<li>
+        <li class="lemma">μηδείς<li>
+    </ul>
+    <ul>
+        <li class="text">ἐνδοιάζων·<li>
+        <li class="lemma">ἐνδοιάζω<li>
+    </ul>
+    <ul>
+        <li class="text">εἴ<li>
+        <li class="lemma">εἰ<li>
+    </ul>
+    <ul>
+        <li class="text">τις<li>
+        <li class="lemma">τις<li>
+    </ul>
+    <ul>
+        <li class="text">εἰς<li>
+        <li class="lemma">εἰς<li>
+    </ul>
+    <ul>
+        <li class="text">μόνην<li>
+        <li class="lemma">μόνος<li>
+    </ul>
+    <ul>
+        <li class="text">ἔφθασε<li>
+        <li class="lemma">φθάνω<li>
+    </ul>
+    <ul>
+        <li class="text">τὴν<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">ἐνδεκάτην,<li>
+        <li class="lemma">ἑνδέκατος<li>
+    </ul>
+    <ul>
+        <li class="text">μὴ<li>
+        <li class="lemma">μή<li>
+    </ul>
+    <ul>
+        <li class="text">φοβηθῇ<li>
+        <li class="lemma">φοβέω<li>
+    </ul>
+    <ul>
+        <li class="text">τὴν<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">βραδυτῆτα.<li>
+        <li class="lemma">βραδυτής<li>
+    </ul>
+    <ul>
+        <li class="text">Φιλότιμος<li>
+        <li class="lemma">φιλότιμος<li>
+    </ul>
+    <ul>
+        <li class="text">γὰρ<li>
+        <li class="lemma">γάρ<li>
+    </ul>
+    <ul>
+        <li class="text">ὢν<li>
+        <li class="lemma">εἰμί<li>
+    </ul>
+    <ul>
+        <li class="text">ὁ<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">Δεσπότης<li>
+        <li class="lemma">δεσπότης<li>
+    </ul>
+    <ul>
+        <li class="text">δέχεται<li>
+        <li class="lemma">δέχομαι<li>
+    </ul>
+    <ul>
+        <li class="text">τὸν<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">ἔσχατον,<li>
+        <li class="lemma">ἔσχατος<li>
+    </ul>
+    <ul>
+        <li class="text">καθάπερ<li>
+        <li class="lemma">καθά<li>
+    </ul>
+    <ul>
+        <li class="text">καὶ<li>
+        <li class="lemma">καί<li>
+    </ul>
+    <ul>
+        <li class="text">τὸν<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">πρῶτον·<li>
+        <li class="lemma">πρῶτος<li>
+    </ul>
+    <ul>
+        <li class="text">ἀναπαύει<li>
+        <li class="lemma">ἀναπαύω<li>
+    </ul>
+    <ul>
+        <li class="text">τὸν<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">τῆς<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">ἑνδεκάτης,<li>
+        <li class="lemma">ἑνδέκατος<li>
+    </ul>
+    <ul>
+        <li class="text">ὡς<li>
+        <li class="lemma">ὡς<li>
+    </ul>
+    <ul>
+        <li class="text">τὸν<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">ἐργασάμενον<li>
+        <li class="lemma">ἐργάζομαι<li>
+    </ul>
+    <ul>
+        <li class="text">ἀπὸ<li>
+        <li class="lemma">ἀπά<li>
+    </ul>
+    <ul>
+        <li class="text">τῆς<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">πρώτης·<li>
+        <li class="lemma">πρῶτος<li>
+    </ul>
+    <ul>
+        <li class="text">καὶ<li>
+        <li class="lemma">καί<li>
+    </ul>
+    <ul>
+        <li class="text">τὸν<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">ὕστερον<li>
+        <li class="lemma">ὕστερος<li>
+    </ul>
+    <ul>
+        <li class="text">ἐλεεῖ,<li>
+        <li class="lemma">ἐλεέω<li>
+    </ul>
+    <ul>
+        <li class="text">καὶ<li>
+        <li class="lemma">καί<li>
+    </ul>
+    <ul>
+        <li class="text">τὸν<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">πρῶτον<li>
+        <li class="lemma">πρῶτος<li>
+    </ul>
+    <ul>
+        <li class="text">θεραπεύει·<li>
+        <li class="lemma">θεραπεύω<li>
+    </ul>
+    <ul>
+        <li class="text">κἀκείνῳ<li>
+        <li class="lemma">ἐκεῖνος<li>
+    </ul>
+    <ul>
+        <li class="text">δίδωσι,<li>
+        <li class="lemma">δίδωμι<li>
+    </ul>
+    <ul>
+        <li class="text">καὶ<li>
+        <li class="lemma">καί<li>
+    </ul>
+    <ul>
+        <li class="text">τούτῳ<li>
+        <li class="lemma">οὗτος<li>
+    </ul>
+    <ul>
+        <li class="text">χαρίζεται.<li>
+        <li class="lemma">χαρίζομαι<li>
+    </ul>
+    <ul>
+        <li class="text">Καὶ<li>
+        <li class="lemma">καί<li>
+    </ul>
+    <ul>
+        <li class="text">τὴν<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">πρᾶξιν<li>
+        <li class="lemma">πρᾶξις<li>
+    </ul>
+    <ul>
+        <li class="text">τιμᾷ<li>
+        <li class="lemma">τιμάω<li>
+    </ul>
+    <ul>
+        <li class="text">καὶ<li>
+        <li class="lemma">καί<li>
+    </ul>
+    <ul>
+        <li class="text">τὴν<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">πρόθεσιν<li>
+        <li class="lemma">πρόθεσις<li>
+    </ul>
+    <ul>
+        <li class="text">ἐπαινεῖ.<li>
+        <li class="lemma">ἐπαινέω<li>
+    </ul>
+:::
+
+::: {style="line"}
+    <ul>
+        <li class="text">οὐκοῦν<li>
+        <li class="lemma">οὐκοῦν<li>
+    </ul>
+    <ul>
+        <li class="text">εἰσέλθητε<li>
+        <li class="lemma">εἰσέρχομαι<li>
+    </ul>
+    <ul>
+        <li class="text">πάντες<li>
+        <li class="lemma">πᾶς<li>
+    </ul>
+    <ul>
+        <li class="text">εἰς<li>
+        <li class="lemma">εἰς<li>
+    </ul>
+    <ul>
+        <li class="text">τὴν<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">χαράν<li>
+        <li class="lemma">χαρά<li>
+    </ul>
+    <ul>
+        <li class="text">τοῦ<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">Κυρίου<li>
+        <li class="lemma">κύριος<li>
+    </ul>
+    <ul>
+        <li class="text">ἡμῶν<li>
+        <li class="lemma">ἐγώ<li>
+    </ul>
+    <ul>
+        <li class="text">καὶ<li>
+        <li class="lemma">καί<li>
+    </ul>
+    <ul>
+        <li class="text">πρῶτοι<li>
+        <li class="lemma">πρῶτος<li>
+    </ul>
+    <ul>
+        <li class="text">καὶ<li>
+        <li class="lemma">καί<li>
+    </ul>
+    <ul>
+        <li class="text">δεύτεροι<li>
+        <li class="lemma">δεύτερος<li>
+    </ul>
+    <ul>
+        <li class="text">τὸν<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">μισθὸν<li>
+        <li class="lemma">μισθὸς<li>
+    </ul>
+    <ul>
+        <li class="text">ἀπολάβετε,<li>
+        <li class="lemma">ἀπολαμβάνω<li>
+    </ul>
+    <ul>
+        <li class="text">πλούσιοι<li>
+        <li class="lemma">πλούσιος<li>
+    </ul>
+    <ul>
+        <li class="text">καὶ<li>
+        <li class="lemma">καί<li>
+    </ul>
+    <ul>
+        <li class="text">πένητες<li>
+        <li class="lemma">πένης<li>
+    </ul>
+    <ul>
+        <li class="text">μετὰ<li>
+        <li class="lemma">μετά<li>
+    </ul>
+    <ul>
+        <li class="text">ἀλλήλων<li>
+        <li class="lemma">ἀλλήλων<li>
+    </ul>
+    <ul>
+        <li class="text">χορεύσατε,<li>
+        <li class="lemma">χορεύω<li>
+    </ul>
+    <ul>
+        <li class="text">ἐγκρατεῖς<li>
+        <li class="lemma">ἐγκρατής<li>
+    </ul>
+    <ul>
+        <li class="text">καὶ<li>
+        <li class="lemma">καί<li>
+    </ul>
+    <ul>
+        <li class="text">ῥᾴθυμοι<li>
+        <li class="lemma">ῥᾱ́θῡμος<li>
+    </ul>
+    <ul>
+        <li class="text">τὴν<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">ἡμέραν<li>
+        <li class="lemma">ἡμέρα<li>
+    </ul>
+    <ul>
+        <li class="text">τιμήσατε,<li>
+        <li class="lemma">τιμάω<li>
+    </ul>
+    <ul>
+        <li class="text">νηστεύσαντες<li>
+        <li class="lemma">νηστεύω<li>
+    </ul>
+    <ul>
+        <li class="text">καὶ<li>
+        <li class="lemma">καί<li>
+    </ul>
+    <ul>
+        <li class="text">μὴ<li>
+        <li class="lemma">μή<li>
+    </ul>
+    <ul>
+        <li class="text">νηστεύσαντες<li>
+        <li class="lemma">νηστεύω<li>
+    </ul>
+    <ul>
+        <li class="text">εὐφράνθητε<li>
+        <li class="lemma">εὐφραίνω<li>
+    </ul>
+    <ul>
+        <li class="text">σήμερον.<li>
+        <li class="lemma">σήμερον<li>
+    </ul>
+    <ul>
+        <li class="text">Ἡ<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">τράπεζα<li>
+        <li class="lemma">τράπεζα<li>
+    </ul>
+    <ul>
+        <li class="text">γέμει,<li>
+        <li class="lemma">γέμω<li>
+    </ul>
+    <ul>
+        <li class="text">τρυφήσατε<li>
+        <li class="lemma">τρυφαίνω<li>
+    </ul>
+    <ul>
+        <li class="text">πάντες·<li>
+        <li class="lemma">πᾶς<li>
+    </ul>
+    <ul>
+        <li class="text">ὁ<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">μόσχος<li>
+        <li class="lemma">μόσχος<li>
+    </ul>
+    <ul>
+        <li class="text">πολὺς<li>
+        <li class="lemma">πολύς<li>
+    </ul>
+    <ul>
+        <li class="text">μηδεὶς<li>
+        <li class="lemma">μηδεὶς<li>
+    </ul>
+    <ul>
+        <li class="text">ἐξέλθοι<li>
+        <li class="lemma">ἐξέρχομαι<li>
+    </ul>
+    <ul>
+        <li class="text">πεινῶν.<li>
+        <li class="lemma">πεινάω<li>
+    </ul>
+:::
+
+::: {style="line"}
+    <ul>
+        <li class="text">Πάντες<li>
+        <li class="lemma">πᾶς<li>
+    </ul>
+    <ul>
+        <li class="text">ἀπολαύσατε<li>
+        <li class="lemma">ἀπολαύω<li>
+    </ul>
+    <ul>
+        <li class="text">τοῦ<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">πλούτου<li>
+        <li class="lemma">πλοῦτος<li>
+    </ul>
+    <ul>
+        <li class="text">τῆς<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">χρηστότητος.<li>
+        <li class="lemma">χρηστότης<li>
+    </ul>
+:::
+
+::: {style="line"}
+    <ul>
+        <li class="text">Μηδείς<li>
+        <li class="lemma">μηδείς<li>
+    </ul>
+    <ul>
+        <li class="text">θρηνείτω<li>
+        <li class="lemma">θρηνέω<li>
+    </ul>
+    <ul>
+        <li class="text">πενίαν·<li>
+        <li class="lemma">πενία<li>
+    </ul>
+    <ul>
+        <li class="text">ἐφάνη<li>
+        <li class="lemma">φαίνω<li>
+    </ul>
+    <ul>
+        <li class="text">γὰρ<li>
+        <li class="lemma">γάρ<li>
+    </ul>
+    <ul>
+        <li class="text">ἡ<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">κοινή<li>
+        <li class="lemma">κοινός<li>
+    </ul>
+    <ul>
+        <li class="text">βασιλεία·<li>
+        <li class="lemma">βασίλεια<li>
+    </ul>
+:::
+
+::: {style="line"}
+    <ul>
+        <li class="text">μηδείς<li>
+        <li class="lemma">μηδείς<li>
+    </ul>
+    <ul>
+        <li class="text">ὀδυρέσθω<li>
+        <li class="lemma">ὀδῡ́ρομαι<li>
+    </ul>
+    <ul>
+        <li class="text">τὰ<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">πταίσματα·<li>
+        <li class="lemma">πταῖσμα<li>
+    </ul>
+    <ul>
+        <li class="text">συγγνώμη<li>
+        <li class="lemma">συγγνώμη<li>
+    </ul>
+    <ul>
+        <li class="text">γὰρ<li>
+        <li class="lemma">γάρ<li>
+    </ul>
+    <ul>
+        <li class="text">ἐκ<li>
+        <li class="lemma">ἐκ<li>
+    </ul>
+    <ul>
+        <li class="text">τοῦ<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">τάφου<li>
+        <li class="lemma">τάφος<li>
+    </ul>
+    <ul>
+        <li class="text">ἀνέτειλε·<li>
+        <li class="lemma">ἀνατέλλω<li>
+    </ul>
+:::
+
+::: {style="line"}
+    <ul>
+        <li class="text">μηδεὶς<li>
+        <li class="lemma">μηδεὶς<li>
+    </ul>
+    <ul>
+        <li class="text">φοβείσθω<li>
+        <li class="lemma">φοβέω<li>
+    </ul>
+    <ul>
+        <li class="text">τὸν<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">θάνατον·<li>
+        <li class="lemma">θάνατος<li>
+    </ul>
+    <ul>
+        <li class="text">ἠλευθέρωσε<li>
+        <li class="lemma">ἐλευθερόω<li>
+    </ul>
+    <ul>
+        <li class="text">γὰρ<li>
+        <li class="lemma">γάρ<li>
+    </ul>
+    <ul>
+        <li class="text">ἡμᾶς<li>
+        <li class="lemma">ἐγώ<li>
+    </ul>
+    <ul>
+        <li class="text">ὁ<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">τοῦ<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">Σωτῆρος<li>
+        <li class="lemma">σωτήρ<li>
+    </ul>
+    <ul>
+        <li class="text">θάνατος·<li>
+        <li class="lemma">θάνατος<li>
+    </ul>
+:::
+
+::: {style="line"}
+    <ul>
+        <li class="text">ἔσβεσεν<li>
+        <li class="lemma">σβέννυμι<li>
+    </ul>
+    <ul>
+        <li class="text">αὐτόν<li>
+        <li class="lemma">αὐτός<li>
+    </ul>
+    <ul>
+        <li class="text">ὑπ'<li>
+        <li class="lemma">ὑπό<li>
+    </ul>
+    <ul>
+        <li class="text">αὐτοῦ<li>
+        <li class="lemma">αὐτός<li>
+    </ul>
+    <ul>
+        <li class="text">κατεχόμενος·<li>
+        <li class="lemma">κατέχω<li>
+    </ul>
+    <ul>
+        <li class="text">ἐκόλασε<li>
+        <li class="lemma">κολάζω<li>
+    </ul>
+    <ul>
+        <li class="text">τὸν<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">ᾅδην<li>
+        <li class="lemma">ᾍδης<li>
+    </ul>
+    <ul>
+        <li class="text">κατελθών<li>
+        <li class="lemma">κατέρχομαι<li>
+    </ul>
+    <ul>
+        <li class="text">εἰς<li>
+        <li class="lemma">εἰς<li>
+    </ul>
+    <ul>
+        <li class="text">τὸν<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">ᾅδην·<li>
+        <li class="lemma">ᾍδης<li>
+    </ul>
+    <ul>
+        <li class="text">ἐπίκρανεν<li>
+        <li class="lemma">πικραίνω<li>
+    </ul>
+    <ul>
+        <li class="text">αὐτόν<li>
+        <li class="lemma">αὐτός<li>
+    </ul>
+    <ul>
+        <li class="text">γευσάμενον<li>
+        <li class="lemma">γεύω<li>
+    </ul>
+    <ul>
+        <li class="text">τῆς<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">σαρκὸς<li>
+        <li class="lemma">σαρκός<li>
+    </ul>
+    <ul>
+        <li class="text">αὐτοῦ.<li>
+        <li class="lemma">αὐτός<li>
+    </ul>
+    <ul>
+        <li class="text">Καὶ<li>
+        <li class="lemma">καί<li>
+    </ul>
+    <ul>
+        <li class="text">τοῦτο<li>
+        <li class="lemma">οὗτος<li>
+    </ul>
+    <ul>
+        <li class="text">προλαβὼν<li>
+        <li class="lemma">προλαμβάνω<li>
+    </ul>
+    <ul>
+        <li class="text">Ἠσαΐας<li>
+        <li class="lemma">Ἠσαΐας<li>
+    </ul>
+    <ul>
+        <li class="text">ἐβόησεν·<li>
+        <li class="lemma">βοάω<li>
+    </ul>
+    <ul>
+        <li class="text">Ὁ<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">ᾅδης,<li>
+        <li class="lemma">ᾍδης<li>
+    </ul>
+    <ul>
+        <li class="text">φησὶν,<li>
+        <li class="lemma">φημί<li>
+    </ul>
+    <ul>
+        <li class="text">ἐπικράνθη·<li>
+        <li class="lemma">ἐπικραίνω<li>
+    </ul>
+    <ul>
+        <li class="text">Συναντήσας<li>
+        <li class="lemma">συναντάω<li>
+    </ul>
+    <ul>
+        <li class="text">σοι<li>
+        <li class="lemma">σός<li>
+    </ul>
+    <ul>
+        <li class="text">κάτω<li>
+        <li class="lemma">κάτω<li>
+    </ul>
+    <ul>
+        <li class="text">ἐπικράνθη·<li>
+        <li class="lemma">ἐπικραίνω<li>
+    </ul>
+    <ul>
+        <li class="text">καὶ<li>
+        <li class="lemma">καί<li>
+    </ul>
+    <ul>
+        <li class="text">γὰρ<li>
+        <li class="lemma">γάρ<li>
+    </ul>
+    <ul>
+        <li class="text">καθῃρέθη·<li>
+        <li class="lemma">καθαιρέω<li>
+    </ul>
+    <ul>
+        <li class="text">ἐπικράνθη·<li>
+        <li class="lemma">ἐπικραίνω<li>
+    </ul>
+    <ul>
+        <li class="text">καὶ<li>
+        <li class="lemma">καί<li>
+    </ul>
+    <ul>
+        <li class="text">γὰρ<li>
+        <li class="lemma">γάρ<li>
+    </ul>
+    <ul>
+        <li class="text">ἐνεπαίχθη.<li>
+        <li class="lemma">ἐμπαίζω<li>
+    </ul>
+:::
+
+::: {style="line"}
+    <ul>
+        <li class="text">Ἔλαβε<li>
+        <li class="lemma">λαμβάνω<li>
+    </ul>
+    <ul>
+        <li class="text">σῶμα,<li>
+        <li class="lemma">σῶμα<li>
+    </ul>
+    <ul>
+        <li class="text">καὶ<li>
+        <li class="lemma">καί<li>
+    </ul>
+    <ul>
+        <li class="text">Θεῷ<li>
+        <li class="lemma">θεός<li>
+    </ul>
+    <ul>
+        <li class="text">περιέτυχεν·<li>
+        <li class="lemma">περιτυγχάνω<li>
+    </ul>
+    <ul>
+        <li class="text">ἔλαβε<li>
+        <li class="lemma">λαμβάνω<li>
+    </ul>
+    <ul>
+        <li class="text">γῆν,<li>
+        <li class="lemma">γῆ<li>
+    </ul>
+    <ul>
+        <li class="text">καὶ<li>
+        <li class="lemma">καί<li>
+    </ul>
+    <ul>
+        <li class="text">συνήντησεν<li>
+        <li class="lemma">συναντάω<li>
+    </ul>
+    <ul>
+        <li class="text">οὐρανῷ·<li>
+        <li class="lemma">οὐρανός<li>
+    </ul>
+    <ul>
+        <li class="text">ἔλαβεν<li>
+        <li class="lemma">λαμβάνω<li>
+    </ul>
+    <ul>
+        <li class="text">ὅπερ<li>
+        <li class="lemma">ὅσπερ<li>
+    </ul>
+    <ul>
+        <li class="text">ἔβλεπε,<li>
+        <li class="lemma">βλέπω<li>
+    </ul>
+    <ul>
+        <li class="text">καὶ<li>
+        <li class="lemma">καί<li>
+    </ul>
+    <ul>
+        <li class="text">πέπτωκεν<li>
+        <li class="lemma">πίπτω<li>
+    </ul>
+    <ul>
+        <li class="text">ὅθεν<li>
+        <li class="lemma">ὅθεν<li>
+    </ul>
+    <ul>
+        <li class="text">οὐκ<li>
+        <li class="lemma">οὐ<li>
+    </ul>
+    <ul>
+        <li class="text">ἔβλεπε.<li>
+        <li class="lemma">βλέπω<li>
+    </ul>
+:::
+
+::: {style="line"}
+    <ul>
+        <li class="text">Ποῦ<li>
+        <li class="lemma">ποῦ<li>
+    </ul>
+    <ul>
+        <li class="text">σου.<li>
+        <li class="lemma">σός<li>
+    </ul>
+    <ul>
+        <li class="text">θάνατε<li>
+        <li class="lemma">θάνατος<li>
+    </ul>
+    <ul>
+        <li class="text">τὸ<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">κέντρον;<li>
+        <li class="lemma">κέντρον<li>
+    </ul>
+    <ul>
+        <li class="text">ποῦ<li>
+        <li class="lemma">ποῦ<li>
+    </ul>
+    <ul>
+        <li class="text">σου<li>
+        <li class="lemma">σός<li>
+    </ul>
+    <ul>
+        <li class="text">ᾅδη,<li>
+        <li class="lemma">ᾅδης<li>
+    </ul>
+    <ul>
+        <li class="text">τὸ<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">νῖκος;<li>
+        <li class="lemma">νῖκος<li>
+    </ul>
+:::
+
+::: {style="line"}
+    <ul>
+        <li class="text">Ἀνέστη<li>
+        <li class="lemma">ἀνίστημι<li>
+    </ul>
+    <ul>
+        <li class="text">Χριστὸς,<li>
+        <li class="lemma">χριστός<li>
+    </ul>
+    <ul>
+        <li class="text">καὶ<li>
+        <li class="lemma">καί<li>
+    </ul>
+    <ul>
+        <li class="text">σὺ<li>
+        <li class="lemma">σύ<li>
+    </ul>
+    <ul>
+        <li class="text">καταβέβλησαι·<li>
+        <li class="lemma">καταβάλλω<li>
+    </ul>
+:::
+
+::: {style="line"}
+    <ul>
+        <li class="text">ἀνέστη<li>
+        <li class="lemma">ἀνίστημι<li>
+    </ul>
+    <ul>
+        <li class="text">Χριστὸς,<li>
+        <li class="lemma">χριστός<li>
+    </ul>
+    <ul>
+        <li class="text">καὶ<li>
+        <li class="lemma">καί<li>
+    </ul>
+    <ul>
+        <li class="text">πεπτώκασι<li>
+        <li class="lemma">πίπτω<li>
+    </ul>
+    <ul>
+        <li class="text">δαίμονες·<li>
+        <li class="lemma">δαίμων<li>
+    </ul>
+:::
+
+::: {style="line"}
+    <ul>
+        <li class="text">ἀνέστη<li>
+        <li class="lemma">ἀνίστημι<li>
+    </ul>
+    <ul>
+        <li class="text">Χριστὸς,<li>
+        <li class="lemma">χριστός<li>
+    </ul>
+    <ul>
+        <li class="text">καὶ<li>
+        <li class="lemma">καί<li>
+    </ul>
+    <ul>
+        <li class="text">χαίρουσιν<li>
+        <li class="lemma">χαίρω<li>
+    </ul>
+    <ul>
+        <li class="text">ἄγγελοι·<li>
+        <li class="lemma">ἄγγελος<li>
+    </ul>
+:::
+
+::: {style="line"}
+    <ul>
+        <li class="text">ἀνέστη<li>
+        <li class="lemma">ἀνίστημι<li>
+    </ul>
+    <ul>
+        <li class="text">Χριστὸς,<li>
+        <li class="lemma">χριστός<li>
+    </ul>
+    <ul>
+        <li class="text">καὶ<li>
+        <li class="lemma">καί<li>
+    </ul>
+    <ul>
+        <li class="text">νεκρὸς<li>
+        <li class="lemma">νεκρός<li>
+    </ul>
+    <ul>
+        <li class="text">οὐδεὶς<li>
+        <li class="lemma">ούδεἰς<li>
+    </ul>
+    <ul>
+        <li class="text">ἐπὶ<li>
+        <li class="lemma">ἐπί<li>
+    </ul>
+    <ul>
+        <li class="text">μνήματος·<li>
+        <li class="lemma">μνῆμα<li>
+    </ul>
+:::
+
+::: {style="line"}
+    <ul>
+        <li class="text">Χριστὸς<li>
+        <li class="lemma">χριστός<li>
+    </ul>
+    <ul>
+        <li class="text">γὰρ<li>
+        <li class="lemma">γάρ<li>
+    </ul>
+    <ul>
+        <li class="text">ἐγερθεὶς<li>
+        <li class="lemma">ἐγείρω<li>
+    </ul>
+    <ul>
+        <li class="text">ἐκ<li>
+        <li class="lemma">ἐκ<li>
+    </ul>
+    <ul>
+        <li class="text">νεκρῶν,<li>
+        <li class="lemma">νεκρός<li>
+    </ul>
+    <ul>
+        <li class="text">ἀπαρχὴ<li>
+        <li class="lemma">ἀπαρχή<li>
+    </ul>
+    <ul>
+        <li class="text">τῶν<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">κεκοιμημένων<li>
+        <li class="lemma">κοιμάω<li>
+    </ul>
+    <ul>
+        <li class="text">ἐγένετο·<li>
+        <li class="lemma">γίγνομαι<li>
+    </ul>
+:::
+
+::: {style="line"}
+    <ul>
+        <li class="text">αὐτῷ<li>
+        <li class="lemma">αὐτός<li>
+    </ul>
+    <ul>
+        <li class="text">ἡ<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">δόξα<li>
+        <li class="lemma">δόξα<li>
+    </ul>
+    <ul>
+        <li class="text">καὶ<li>
+        <li class="lemma">καί<li>
+    </ul>
+    <ul>
+        <li class="text">τὸ<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">κράτος<li>
+        <li class="lemma">κράτος<li>
+    </ul>
+    <ul>
+        <li class="text">εἰς<li>
+        <li class="lemma">εἰς<li>
+    </ul>
+    <ul>
+        <li class="text">τοὺς<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">αἰῶνας<li>
+        <li class="lemma">αἰών<li>
+    </ul>
+    <ul>
+        <li class="text">τῶν<li>
+        <li class="lemma">ὁ<li>
+    </ul>
+    <ul>
+        <li class="text">αἰώνων.<li>
+        <li class="lemma">αἰών<li>
+    </ul>
+    <ul>
+        <li class="text">Ἀμήν<li>
+        <li class="lemma">ἀμήν<li>
+    </ul>
+:::
+
+	</body>
+</html>

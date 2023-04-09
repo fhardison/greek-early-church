@@ -76,3 +76,68 @@ li {
   vertical-align: baseline;
   top: -0.5em;
 }
+
+.line {
+
+	padding:0;
+	margin:0.5em;
+}
+.line > ul {
+	display: inline-block;
+	list-style-type: none;
+	padding:0.15em;
+	margin:0;
+}
+
+.line > ul > li {
+}
+
+.notvisible {
+	visibility: hidden;
+	display:none;
+}
+.line-num { user-select:none; font-size:0.5em; vertical-align:super; color:#C00; }
+
+html {
+  font-family: "NAU";
+  margin: 0 0;
+  height: 100%;
+  padding: 0;
+/*  line-height: 1.25; */
+  word-break: break-all;
+}
+
+main {
+  max-width: 38rem;
+
+  margin: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+
+  font-size: 1.75rem;
+  string-set: heading content();
+  /* page: heading; */
+  counter-reset: footnote;
+}
+
+h3 {
+  /* string-set: heading content(); */
+  font-size: 1.25rem;
+}
+p, li, ul {
+
+  font-size: 0.75em;
+}
+
+ol {
+  margin-left: -2em;
+}
+
+
+
+/*# sourceMappingURL=style.css.map */
